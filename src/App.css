@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'VictorMono';
+  src: local('VictorMono'), url(./assets/fonts/VictorMono-Italic.ttf) format('opentype');
+}
+
 .App {
   text-align: center;
 }
