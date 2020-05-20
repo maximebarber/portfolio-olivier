@@ -2,3 +2,9 @@
   font-family: "VictorMono";
   src: local("VictorMono"), url(./assets/fonts/VictorMono-Italic.ttf) format("opentype");
 }
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: local("PlayfairDisplay"),
+    url(./assets/fonts/PlayfairDisplay.ttf) format("opentype");
+}
