@@ -1,35 +1,23 @@
-import React from 'react';
-import './App.css';
-import { ThemeProvider } from '@material-ui/core/styles';
-import Navbar from './components/Navbar';
-import logo from './logo.svg';
-import theme from './theme';
-
-// const theme = {};
+import React from "react";
+import "./App.css";
+import {ThemeProvider} from "@material-ui/core/styles";
+import {Container} from "@material-ui/core";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Bio from "./components/Bio";
+import theme from "./theme";
 
 function App() {
+  console.log("Theme: ", theme);
+  // const { primary, secondary } = theme.palette;
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
         <Navbar />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit
-            {' '}
-            <code>src/App.js</code>
-            {' '}
-            and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Container maxWidth="lg">
+          <Header />
+          <Bio />
+        </Container>
       </div>
     </ThemeProvider>
   );
