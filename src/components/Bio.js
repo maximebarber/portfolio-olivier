@@ -1,12 +1,11 @@
-import React from "react";
-import {makeStyles} from "@material-ui/core/styles";
-import {Typography, Card, CardContent, Grid, Paper} from "@material-ui/core";
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import { Typography, Grid } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
   bioContainer: {
-    marginTop: "6rem",
-    border: "3px solid",
-    padding: "2rem",
+    marginTop: '6rem',
+    padding: '2rem',
   },
 }));
 
@@ -19,12 +18,13 @@ export default function Bio() {
       </Grid>
       <Grid item xs={12} sm={10}>
         <Typography variant="body1">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi nostrum
-          illo, aliquam, tempore quos, aliquid placeat id quas ducimus sunt! Culpa rem
-          porro, quas aut perspiciatis ea quae repellendus. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Est nemo asperiores exercitationem labore commodi
-          sapiente culpa, pariatur voluptates illo aliquid ratione ab numquam, ut atque
-          alias corrupti excepturi ipsum quasi! Lorem ipsum dolor sit amet consectetur,
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam nisi
+          nostrum illo, aliquam, tempore quos, aliquid placeat id quas ducimus
+          sunt! Culpa rem porro, quas aut perspiciatis ea quae repellendus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo
+          asperiores exercitationem labore commodi sapiente culpa, pariatur
+          voluptates illo aliquid ratione ab numquam, ut atque alias corrupti
+          excepturi ipsum quasi! Lorem ipsum dolor sit amet consectetur,
           adipisicing elit.
         </Typography>
       </Grid>
